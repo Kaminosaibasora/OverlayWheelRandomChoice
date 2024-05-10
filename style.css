@@ -1,0 +1,37 @@
+body {
+    width: 500px;
+}
+
+
+#choix {
+    display: none;
+}
+
+#wheel {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    text-align: center;
+}
+
+canvas {
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+button {
+    height: 50px;
+    border-radius: 20px;
+    font-size: 17px;
+    color: white;
+    background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%);
+    transition : 1186ms;
+}
+
+button:hover{
+    transition : 1186ms;
+    height: 60px;
+    font-size: 25px;
+    border-radius: 35px;
+    background: linear-gradient(90deg, #c500cc 0%, #0066CC 100%);
+}
